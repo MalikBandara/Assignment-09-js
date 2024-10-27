@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.row {
+    display: flex;
+    justify-content: center;
+    /*gap: 1rem;*/
+    padding: 50px;
+    border: 2px solid black;
+}
+.inner{
+    height: 100px;
+    width: 200px;
+    background-color: gray;
+    border: 1px solid red;
+
+
+}
+button{
+    padding: 25px 80px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+
+
+
+}
+.a{
+    margin-top: 50px;
+}
